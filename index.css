@@ -1,0 +1,61 @@
+ody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  #titulo {
+    background-color: #66c2a5; /* Azul verdoso */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #contenedor {
+    display: flex;
+  }
+
+
+
+  #unidades {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .unidad {
+    margin-bottom: 10px;
+  }
+
+  #contenido {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .cuadro {
+    width: 48%;
+    margin-bottom: 20px;
+    background-color: #f0f0f0; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .imagen {
+    width:100%;
+
+
+    background-color: #e0e0e0; 
+  }
+  
+  .imagen img {
+    width: 100%;
+    text-align: center;
+  }
+  .img-brazo-rob {
+    width: 100%;
+  }
+
+  .footer {
+    background-color: #b7f2df;
+  }

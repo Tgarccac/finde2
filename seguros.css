@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+header {
+    background-color: rgba(201, 205, 206, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Agregamos un margen inferior */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+
+.cuadrado {
+    background-color: rgb(187, 221, 246);
+    width: 140px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width:768px){
+    .cuadrado {
+        width: 30%;
+    }  
+}

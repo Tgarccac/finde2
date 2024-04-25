@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+  }
+  
+  body { 
+    padding: 20px 
+  }
+  
+  /* Header */
+  
+  header {
+    padding: 20px;
+    text-align: center;  
+  }
+  
+  header h1 {
+    margin: 30px 0;
+  }
+  
+  /* Form */
+  
+  main {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  input, button {
+    padding: 20px;
+  }
+  
+  button {
+    border: none;
+    font-size: 16px;
+    background-color: lightblue;
+  }
+  
+  /* Results */
+  
+  div.results {
+    padding: 30px;
+  }
+  body {
+    background-color: rgb(189, 228, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+ 

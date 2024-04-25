@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex-direction;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio debajo de la barra */
+}
+
+.inputText {
+    padding: 10px;
+    border: 2px solid orange; /* Bordes naranja */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 300px; /* Ancho del input ajustable */
+}
+
+.saveButton {
+    padding: 10px 20px;
+    background-color: #ccc; /* Gris clarito */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.saveButton:hover {
+    background-color: #bbb; /* Cambio de color al pasar el mouse */
+}
+
+.savedTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.savedText {
+    background-color: orange; /* Fondo naranja pastel */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+    width: 300px; /* Ancho del contenedor ajustable */
+}
+/* El resto del código CSS se mantiene igual */
+.rating {
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 20px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star:hover,
+.star.active {
+    color: orange;
+}
+
